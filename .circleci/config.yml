@@ -11,7 +11,7 @@ jobs:
 
       - run:
           name: build dependencies
-          command:  
+          command:  install
 
       - run:
           name: build the jekyll site
